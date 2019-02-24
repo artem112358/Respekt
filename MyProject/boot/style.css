@@ -1,0 +1,84 @@
+body {
+    padding: 0px;
+    margin: 0;
+}
+
+.icon-size {
+    font-size: 4rem;
+}
+
+.header {
+    position: absolute !important;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(fotki/27.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: absolute;
+    position: relative;
+    height: 100vh;
+}
+
+.content4 { 
+    width: 100%;
+    background-color: gray;
+}
+
+.box-image {
+    width: 30rem;
+    height: 16rem;
+    position: relative;
+    margin-top: 5rem;
+}
+
+.image-title-1, .image-title-2, .image-title-3 {
+    width: 30rem;
+    position: absolute;
+}
+
+.image-title-1 {
+    right: 200px;
+    top: 80px;
+    z-index: 1;
+}
+
+.image-title-2 {
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.image-title-3 {
+    right: -200px;
+    top: 70px;
+    z-index: 2;
+}
+
+.content3 { 
+    width: 100%; 
+    height: 150px; 
+    background-color: black; 
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+    padding-left: 3rem;
+    position: relative;
+    z-index: 10;
+}
+
+.font-form {
+    box-shadow: 2px 7px 36px 0px rgba(0,0,0,0.4);
+    padding: 2rem;
+}
+
+.form-title {
+    margin-bottom: 3rem !important;
+}
